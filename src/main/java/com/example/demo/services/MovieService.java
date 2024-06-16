@@ -20,6 +20,7 @@ import java.util.List;
 
 // This example illustrates caching practices. Depending on your project's requirements,
 // you may choose to apply different caching strategies. For instance, avoiding caching for findAll might be recommended.
+// Nice idea is also to cache responses from external services.
 @Service
 public class MovieService {
 
